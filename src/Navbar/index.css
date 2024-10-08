@@ -1,0 +1,63 @@
+.navbar {
+  background-color: #2c0e3a;
+  padding: 10px 0px;
+}
+
+.navbar-container {
+  max-width: 1300px;
+  width: 90%;
+  margin: auto;
+  font-family: 'Roboto';
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  text-decoration: none;
+  height: 40px;
+  width: 170px;
+}
+
+@media (min-width: 768px) {
+  .navbar-logo {
+    height: 55px;
+    width: 200px;
+  }
+
+  .navbar-container {
+    width: 95%;
+  }
+}
+
+.score-and-timer-card {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.score {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.count,
+.timer {
+  color: #fec653;
+  font-size: 23px;
+}
+
+.navbar-cards {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.clock-img {
+  height: 30px;
+  width: 30px;
+}
